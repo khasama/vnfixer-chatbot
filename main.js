@@ -147,6 +147,6 @@ manager.addAnswer(
 (async () => {
   await manager.train();
   manager.save();
-  const response = await manager.process("vi", "cái quạt của tôi có vấn đề");
-  console.log(response);
+  // const response = await manager.process("vi", "cái quạt của tôi có vấn đề");
+  // console.log(response);
 })();
