@@ -6,8 +6,8 @@ const manager = new NlpManager();
 manager.import(data);
 
 (async () => {
-  const response = await manager.process("vi", "cái quạt của tôi có vấn đề");
-  console.log(response);
-  const response1 = await manager.process("vi", "cái quạt của tôi có vấn đề");
+  // const response = await manager.process("vi", "cút");
+  // console.log(response);
+  const response1 = await manager.process("vi", "cái đồng hồ chạy sai rồi");
   console.log(response1);
 })();
